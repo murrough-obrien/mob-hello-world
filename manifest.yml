@@ -1,0 +1,7 @@
+---
+applications:
+  - name: mob_app_hw.py
+    memory: 1GB
+    buildpack: https://github.com/ihuston/python-conda-buildpack.git
+    timeout: 60
+    command: .conda/bin/python mob_app_hw.py
